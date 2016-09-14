@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - crm_sys@127.0.0.1" uuid="5d25bff9-e991-4e8a-a4d7-2339f2f4d552">
+    <database-info product="MySQL" version="5.5.5-10.1.13-MariaDB" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="crm_sys">
+        <visible>1</visible>
+      </schema>
+      <schema id="2" name="concepz2_newimpala"/>
+      <schema id="3" name="hackathon"/>
+      <schema id="4" name="information_schema"/>
+      <schema id="5" name="jwt"/>
+      <schema id="6" name="mysql"/>
+      <schema id="7" name="performance_schema"/>
+      <schema id="8" name="phpmyadmin"/>
+      <schema id="9" name="test"/>
+      <table id="10" parent="1" name="fir_table"/>
+      <table id="11" parent="1" name="officer_table"/>
+      <table id="12" parent="1" name="sungura">
+        <comment>developed by freddy</comment>
+      </table>
+      <column id="13" parent="10" name="fir_Id">
+        <mandatory>1</mandatory>
+        <data-type>int(10)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="14" parent="10" name="username">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="15" parent="10" name="petitioner_contact">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="16" parent="10" name="petitioner_address">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="17" parent="10" name="victim_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="18" parent="10" name="victim_contact">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="19" parent="10" name="victim_address">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="20" parent="10" name="accused_name">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="21" parent="10" name="accused_contact">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="22" parent="10" name="accused_address">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="23" parent="10" name="incident_date">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="24" parent="10" name="incident_time">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="25" parent="10" name="incident_place">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="26" parent="10" name="incident_description">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <key id="27" parent="10" name="PRIMARY">
+        <columns>fir_Id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="28" parent="11" name="officer_id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+        <sequence-identity>1</sequence-identity>
+      </column>
+      <column id="29" parent="11" name="station_Id">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(10)|0</data-type>
+      </column>
+      <column id="30" parent="11" name="police_id">
+        <mandatory>1</mandatory>
+        <data-type>varchar(15)|0</data-type>
+      </column>
+      <column id="31" parent="11" name="username">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="32" parent="11" name="rank">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="33" parent="11" name="password">
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)|0</data-type>
+      </column>
+      <column id="34" parent="11" name="user_level">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <key id="35" parent="11" name="PRIMARY">
+        <columns>officer_id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="36" parent="12" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)|0</data-type>
+      </column>
+      <column id="37" parent="12" name="username">
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <column id="38" parent="12" name="password">
+        <data-type>varchar(20)|0</data-type>
+      </column>
+      <key id="39" parent="12" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

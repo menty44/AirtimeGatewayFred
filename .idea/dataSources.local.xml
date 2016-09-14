@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - crm_sys@127.0.0.1" uuid="5d25bff9-e991-4e8a-a4d7-2339f2f4d552">
+      <secret-storage>memory</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>crm_sys:</introspection-scope>
+      <resolve-scope>crm_sys:</resolve-scope>
+    </data-source>
+  </component>
+</project>
